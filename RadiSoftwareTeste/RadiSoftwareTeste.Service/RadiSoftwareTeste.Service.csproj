@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RadiSoftwareTeste.Domain\RadiSoftwareTeste.Domain.csproj" />
+    <ProjectReference Include="..\RadiSoftwareTeste.Infra.CrossCutting.Infrastructure\RadiSoftwareTeste.Infra.CrossCutting.Infrastructure.csproj" />
+    <ProjectReference Include="..\RadiSoftwareTeste.Infra.Facade\RadiSoftwareTeste.Infra.Facade.csproj" />
+  </ItemGroup>
+
+</Project>
