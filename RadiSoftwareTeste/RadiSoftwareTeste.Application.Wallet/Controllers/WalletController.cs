@@ -107,7 +107,7 @@ namespace RadiSoftwareTeste.Application.Wallet.Controllers
             catch (Exception e)
             {
 
-                return BadRequest(BaseResponse(e.Message, false, $"Error while validating card {request.CardId} token.}"));
+                return BadRequest(BaseResponse(e.Message, false, $"Error while validating card {request.CardId} token."));
             }
         }
     }

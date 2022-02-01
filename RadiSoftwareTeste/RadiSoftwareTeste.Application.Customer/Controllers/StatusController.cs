@@ -9,7 +9,7 @@ namespace RadiSoftwareTeste.Application.Customer.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok("Online...");
+            return Ok("Customer Online...");
         }
     }
 }

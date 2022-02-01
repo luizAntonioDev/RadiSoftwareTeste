@@ -10,7 +10,7 @@ namespace RadiSoftwareTeste.Application.Wallet.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok("Online...");
+            return Ok("Wallet Online...");
         }
     }
 }
